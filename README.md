@@ -35,13 +35,13 @@ A comprehensive Python script that converts Notion exports to Obsidian-compatibl
 ### Installation
 1. Download the script:
    ```bash
-   git clone https://github.com/yourusername/notion-obsidian-migrator
-   cd notion-obsidian-migrator
+   git clone https://github.com/LStoneyy/notion-to-obsidian-py
+   cd notion-to-obsidian-py
    ```
 
 2. Run the migration:
    ```bash
-   python notion_to_obsidian.py
+   python notion-to-obsidian.py
    ```
 
 ### Usage
@@ -166,7 +166,7 @@ After completion, you'll see a detailed summary:
 
 **"Directory does not exist"**
 - Ensure you've extracted the Notion export ZIP file
-- Use the full path to the extracted folder
+- Use the full path to the extracted folder, multiple formats are supported
 
 **"Files appear in wrong locations"**
 - This script fixes the common issue of files being dumped at vault root
